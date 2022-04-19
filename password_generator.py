@@ -6,7 +6,7 @@ from itertools import chain
 
 def generate(elements):
     """Function that generates a list of secure random elements"""
-    return [secrets.choice(elements) for i in range(random.randrange(3, 5, 1))]
+    return [secrets.choice(elements) for i in range(random.randrange(4, 5, 1))]
 
 
 def strong_password():
